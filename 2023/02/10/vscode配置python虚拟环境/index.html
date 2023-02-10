@@ -16,22 +16,23 @@
   <meta name="author" content="灰色头像">
   <meta name="keywords" content="折腾">
   
-    <meta name="description" content="当部署好第一个hexo后按，以下方法部署第二个hexo 一、创建第二个密钥CMD命令进入.ssh文件 bash1cd .&#x2F;.ssh  然后创建密钥，创建密钥有2种方法： 密钥方法一：awk12# 这种方法创建的密钥名字默认的，默认是id_rsassh-keygen -t rsa -C &quot;这里是你的github邮箱&quot;   密钥方法二：awk12# 这种方法可以指定密钥文件名称ss">
+    <meta name="description" content="vscode配置python虚拟环境创建虚拟环境在vscode终端（ctrl+shift+&#96;）输入以下命令： nginx1python -m venv test_venv #test_venv是保存虚拟环境文件夹名称，可以修改  在左边资源管理器可以看见创建了一个test_venv文件夹。 激活虚拟环境在终端进入虚拟环境文件夹下的scripts文件夹 bash1cd .\test_venv\scr">
 <meta property="og:type" content="article">
-<meta property="og:title" content="一台电脑部署两hexo">
-<meta property="og:url" content="http://example.com/2023/02/03/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E9%83%A8%E7%BD%B2%E4%B8%A4hexo/index.html">
+<meta property="og:title" content="vscode配置python虚拟环境">
+<meta property="og:url" content="http://example.com/2023/02/10/vscode%E9%85%8D%E7%BD%AEpython%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/index.html">
 <meta property="og:site_name" content="灰色头像的个人博客">
-<meta property="og:description" content="当部署好第一个hexo后按，以下方法部署第二个hexo 一、创建第二个密钥CMD命令进入.ssh文件 bash1cd .&#x2F;.ssh  然后创建密钥，创建密钥有2种方法： 密钥方法一：awk12# 这种方法创建的密钥名字默认的，默认是id_rsassh-keygen -t rsa -C &quot;这里是你的github邮箱&quot;   密钥方法二：awk12# 这种方法可以指定密钥文件名称ss">
+<meta property="og:description" content="vscode配置python虚拟环境创建虚拟环境在vscode终端（ctrl+shift+&#96;）输入以下命令： nginx1python -m venv test_venv #test_venv是保存虚拟环境文件夹名称，可以修改  在左边资源管理器可以看见创建了一个test_venv文件夹。 激活虚拟环境在终端进入虚拟环境文件夹下的scripts文件夹 bash1cd .\test_venv\scr">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-02-03T15:32:55.000Z">
-<meta property="article:modified_time" content="2023-02-05T02:52:17.790Z">
+<meta property="article:published_time" content="2023-02-10T13:17:01.380Z">
+<meta property="article:modified_time" content="2023-02-10T13:21:15.038Z">
 <meta property="article:author" content="灰色头像">
-<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="vscode">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>一台电脑部署两hexo - 灰色头像的个人博客</title>
+  <title>vscode配置python虚拟环境 - 灰色头像的个人博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -204,7 +205,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">一台电脑部署两hexo</span>
+            <span id="subtitle">vscode配置python虚拟环境</span>
           
         </div>
 
@@ -215,8 +216,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-02-03 23:32" pubdate>
-          2023年2月3日 晚上
+        <time datetime="2023-02-10 21:17" pubdate>
+          2023年2月10日 晚上
         </time>
       </span>
     
@@ -227,7 +228,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.6k 字
+          359 字
         
       </span>
     
@@ -238,7 +239,7 @@
         
         
         
-          14 分钟
+          3 分钟
         
       </span>
     
@@ -276,57 +277,23 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">一台电脑部署两hexo</h1>
+            <h1 style="display: none">vscode配置python虚拟环境</h1>
             
             
               <div class="markdown-body">
                 
-                <p>当部署好第一个hexo后按，以下方法部署第二个hexo</p>
-<h3 id="一、创建第二个密钥"><a href="#一、创建第二个密钥" class="headerlink" title="一、创建第二个密钥"></a>一、创建第二个密钥</h3><p>CMD命令进入.ssh文件</p>
-<figure class="highlight bash"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-yjq0hgldymutln"></i><span>bash</span><div class="collapse show" id="collapse-yjq0hgldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> ./.ssh<br></code></pre></td></tr></table></div></figure>
+                <h1 id="vscode配置python虚拟环境"><a href="#vscode配置python虚拟环境" class="headerlink" title="vscode配置python虚拟环境"></a>vscode配置python虚拟环境</h1><h3 id="创建虚拟环境"><a href="#创建虚拟环境" class="headerlink" title="创建虚拟环境"></a>创建虚拟环境</h3><p>在vscode终端（ctrl+shift+`）输入以下命令：</p>
+<figure class="highlight nginx"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-i1c65tldymutln"></i><span>nginx</span><div class="collapse show" id="collapse-i1c65tldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">python</span> -m venv test_venv <span class="hljs-comment">#test_venv是保存虚拟环境文件夹名称，可以修改</span><br></code></pre></td></tr></table></div></figure>
 
-<p>然后创建密钥，创建密钥有2种方法：</p>
-<h6 id="密钥方法一："><a href="#密钥方法一：" class="headerlink" title="密钥方法一："></a>密钥方法一：</h6><figure class="highlight awk"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-a71wd1ldymutln"></i><span>awk</span><div class="collapse show" id="collapse-a71wd1ldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment"># 这种方法创建的密钥名字默认的，默认是id_rsa</span><br>ssh-keygen -t rsa -C <span class="hljs-string">&quot;这里是你的github邮箱&quot;</span> <br></code></pre></td></tr></table></div></figure>
+<p>在左边资源管理器可以看见创建了一个test_venv文件夹。</p>
+<h3 id="激活虚拟环境"><a href="#激活虚拟环境" class="headerlink" title="激活虚拟环境"></a>激活虚拟环境</h3><p>在终端进入虚拟环境文件夹下的scripts文件夹</p>
+<figure class="highlight bash"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-xq2kxyldymutln"></i><span>bash</span><div class="collapse show" id="collapse-xq2kxyldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> .\test_venv\scripts<br></code></pre></td></tr></table></div></figure>
 
-<h6 id="密钥方法二："><a href="#密钥方法二：" class="headerlink" title="密钥方法二："></a>密钥方法二：</h6><figure class="highlight awk"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-afhzvdldymutln"></i><span>awk</span><div class="collapse show" id="collapse-afhzvdldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment"># 这种方法可以指定密钥文件名称</span><br>ssh-keygen -t rsa -f ~.<span class="hljs-regexp">/.ssh/</span>这里是密钥名称 -C <span class="hljs-string">&quot;这里是github邮箱&quot;</span><br></code></pre></td></tr></table></div></figure>
+<p>在输入下面命令激活</p>
+<figure class="highlight applescript"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-lsae7ildymutln"></i><span>applescript</span><div class="collapse show" id="collapse-lsae7ildymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs applescript">.\<span class="hljs-built_in">activate</span>.ps1<br></code></pre></td></tr></table></div></figure>
 
-<p>第二个密钥名称要记住，后面配置config文件需要。</p>
-<h3 id="二、Github添加SSH-keys"><a href="#二、Github添加SSH-keys" class="headerlink" title="二、Github添加SSH keys"></a>二、Github添加SSH keys</h3><p>登陆Github账号，点右上角头像-<strong>settings</strong>,在左边导航点<strong>SSH and GPG keys</strong>-<strong>New SSH key</strong></p>
-<p><strong>title</strong>: 随便填写</p>
-<p><strong>key type</strong>: 默认</p>
-<p><strong>key</strong>: 把第二个密钥.pub文件里面的内容粘贴进去</p>
-<h3 id="三、创建并配置config文件"><a href="#三、创建并配置config文件" class="headerlink" title="三、创建并配置config文件"></a>三、创建并配置config文件</h3><p>CMD进入.ssh文件夹：</p>
-<figure class="highlight bash"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-ksk53rldymutln"></i><span>bash</span><div class="collapse show" id="collapse-ksk53rldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">cd</span> ./.ssh<br></code></pre></td></tr></table></div></figure>
-
-<p>进入.ssh文件夹后输入：<code>touch config</code> 创建config文件(注意没后缀)</p>
-<p>用记事本打开config，然后按下方配置：</p>
-<figure class="highlight crmsh"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-e6g6aaldymutln"></i><span>crmsh</span><div class="collapse show" id="collapse-e6g6aaldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">Host github.com<br>HostName github.com<br><span class="hljs-keyword">User</span> <span class="hljs-title">git</span><br>IdentityFile ~/.ssh/id_rsa <span class="hljs-comment"># id_rsa是第一个hexo的密钥名称（创建如果没指定名称默认这个），</span><br><br><span class="hljs-comment">#第二个新账号，#&quot;xxxxxx&quot;为前缀名，可以任意设置，要记住，后面配置hexo的config文件需要用到</span><br>Host xxxxxx.github.com<br>HostName github.com<br><span class="hljs-keyword">User</span> <span class="hljs-title">git</span><br>IdentityFile ~/.ssh/这里是第二个密钥的名称<br></code></pre></td></tr></table></div></figure>
-
-<h3 id="四、添加添加新的密钥到SSH-agent中"><a href="#四、添加添加新的密钥到SSH-agent中" class="headerlink" title="四、添加添加新的密钥到SSH agent中"></a>四、添加添加新的密钥到SSH agent中</h3><p>命令进入.ssh文件夹，输入以下命令：</p>
-<figure class="highlight mipsasm"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-gds2stldymutln"></i><span>mipsasm</span><div class="collapse show" id="collapse-gds2stldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">ssh-agent <span class="hljs-keyword">bash</span><br><span class="hljs-keyword"></span>ssh-agent -D<br>ssh-<span class="hljs-keyword">add </span>这里是第一个密钥名称 <span class="hljs-comment">#一般默认是id_rsa</span><br>ssh-<span class="hljs-keyword">add </span>这里是第二个密钥名称<br></code></pre></td></tr></table></div></figure>
-
-<p>添加好后需要验证依次执行以下命令：</p>
-<figure class="highlight angelscript"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-mv0459ldymutln"></i><span>angelscript</span><div class="collapse show" id="collapse-mv0459ldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">ssh -T <span class="hljs-symbol">git@</span>github.com<br>ssh- T <span class="hljs-symbol">git@</span>第二个密钥名称.github.com<br></code></pre></td></tr></table></div></figure>
-
-<p>如果返回以下信息表示配置成功</p>
-<div class="note note-success">
-            <p>Hi 你的用户名! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
-          </div>
-
-<h3 id="五、单独设置第二个hexo的用户名和邮箱"><a href="#五、单独设置第二个hexo的用户名和邮箱" class="headerlink" title="五、单独设置第二个hexo的用户名和邮箱"></a>五、单独设置第二个hexo的用户名和邮箱</h3><p>在第二个hexo目录下找到**.deploy_git<strong>文件夹，进入后鼠标右键空白出打开</strong>Git Bash Here**。</p>
-<p>输入以下命令设置用户名和邮箱：</p>
-<figure class="highlight pgsql"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-kbstcjldymutln"></i><span>pgsql</span><div class="collapse show" id="collapse-kbstcjldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git config <span class="hljs-keyword">user</span>.name &quot;你Git的用户名&quot;<br>git config <span class="hljs-keyword">user</span>.email &quot;你Git的邮箱&quot;<br></code></pre></td></tr></table></div></figure>
-
-<p>如果找不到.deploy_git文件夹，可以在第二hexo目录下打开cmd命令或者git bash her，输入命令：</p>
-<figure class="highlight nginx"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-q37ertldymutln"></i><span>nginx</span><div class="collapse show" id="collapse-q37ertldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">hexo</span> g -d <span class="hljs-comment"># 这个命令中g是hexo生成静态页面，-d是生成后部署到</span><br></code></pre></td></tr></table></div></figure>
-
-<h3 id="六、修改hexo-config文件"><a href="#六、修改hexo-config文件" class="headerlink" title="六、修改hexo config文件"></a>六、修改hexo config文件</h3><p>在第二个hexo根目录下找到**.config_yml<strong>文件，用记事本打开，找到</strong>deploy**，按下面的修改。</p>
-<figure class="highlight stylus"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-0a8w7mldymutln"></i><span>stylus</span><div class="collapse show" id="collapse-0a8w7mldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs stylus">deploy:<br>  type: git<br>  repository: git@这里填第三步HOST里面你修改的名称<span class="hljs-selector-class">.github</span><span class="hljs-selector-class">.com</span>:这里填你github用户名/这里贴你github用户名<span class="hljs-selector-class">.github</span><span class="hljs-selector-class">.io</span><span class="hljs-selector-class">.git</span><br>  branch: main<br></code></pre></td></tr></table></div></figure>
-
-<p>保存后，CMD命令或者git bash 中输入</p>
-<figure class="highlight ebnf"><i class="iconfont icon-xiangxiajiantou" type="button" data-toggle="collapse" data-target="#collapse-fpdv06ldymutln"></i><span>ebnf</span><div class="collapse show" id="collapse-fpdv06ldymutln"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g -d</span><br></code></pre></td></tr></table></div></figure>
-
-<p>就可以把本地的部署到git上了，在浏览器中输入：git用户名.github.io ，就可以看到你的hexo博客。</p>
+<p>运行activate.ps1文件激活，激活后命令行前面会显示虚拟环境名称(test_venv)即为激活成功。</p>
+<h3 id="选择解释器"><a href="#选择解释器" class="headerlink" title="选择解释器"></a>选择解释器</h3><p>有两种方式：1.右下角状态栏点击解释器选择，2.ctrl+shift+p，然后输入python: select interpreter,选择即可。</p>
 
                 
               </div>
@@ -345,7 +312,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/hexo/" class="category-chain-item">hexo</a>
+  <a href="/categories/python/" class="category-chain-item">python</a>
   
   
 
@@ -360,7 +327,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/hexo/">#hexo</a>
+        <a href="/tags/python/">#python</a>
+      
+        <a href="/tags/vscode/">#vscode</a>
       
     </div>
   
@@ -372,8 +341,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>一台电脑部署两hexo</div>
-      <div>http://example.com/2023/02/03/一台电脑部署两hexo/</div>
+      <div>vscode配置python虚拟环境</div>
+      <div>http://example.com/2023/02/10/vscode配置python虚拟环境/</div>
     </div>
     <div class="license-meta">
       
@@ -385,7 +354,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年2月3日</div>
+          <div>2023年2月10日</div>
         </div>
       
       
@@ -417,18 +386,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/02/10/vscode%E9%85%8D%E7%BD%AEpython%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/" title="vscode配置python虚拟环境">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">vscode配置python虚拟环境</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/02/02/%E8%A7%A3%E5%86%B3sublime%E5%8D%B8%E8%BD%BD%E9%87%8D%E8%A3%85%E4%B8%8D%E8%83%BD%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/" title="解决sublime卸载重装不能设置默认打开方式">
-                        <span class="hidden-mobile">解决sublime卸载重装不能设置默认打开方式</span>
+                      <a href="/2023/02/03/%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E9%83%A8%E7%BD%B2%E4%B8%A4hexo/" title="一台电脑部署两hexo">
+                        <span class="hidden-mobile">一台电脑部署两hexo</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
